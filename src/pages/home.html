@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+    <style>
+        /* Basic CSS for demonstration */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .hero {
+            height: 300px;
+            background: url('hero.jpg') no-repeat center center/cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3rem;
+        }
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+        .content h2 {
+            margin-top: 20px;
+        }
+        .content p {
+            margin-top: 10px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Welcome to My Website</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Explore the World of Coding</h1>
+    </section>
+
+    <!-- Main Content -->
+    <section class="content" id="home">
+        <h2>Welcome to My Homepage</h2>
+        <p>This is a sample homepage created to demonstrate a simple website structure. You can navigate through the links above to explore more sections.</p>
+
+        <h2 id="about">About Us</h2>
+        <p>We are passionate about coding and web development. Our goal is to make coding fun and accessible for everyone.</p>
+
+        <h2 id="services">Our Services</h2>
+        <p>From web development to coding tutorials, we provide a range of services to help you on your coding journey.</p>
+
+        <h2 id="contact">Contact Us</h2>
+        <p>If you have any questions or want to get in touch, feel free to reach out through our contact form or social media channels.</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 My Website. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
